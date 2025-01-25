@@ -4,7 +4,8 @@ header {
   border-style: solid;
   border-color: black;
   text-align: center;
-  font-family: 'Courier New', Courier, monospace;
+  font-family: Times, serif;
+  font-variant: small-caps;
   font-weight: 500; 
 }
 aside {
@@ -36,19 +37,20 @@ h2 {
   text-align: center;
 }
 p {
-  padding-left: 70px;
-  padding-right: 70px;
+  margin-left: 70px;
+  margin-right: 70px;
+  text-align: justify;
 }
 .border-left {
-  width: 1180px;
   margin:auto;
-  padding-left: 70px;
-  padding-right: 70px;
+  margin-left: 70px;
+  margin-right: 70px;
+  padding-left: 20px;
   border-left: 30px solid green; 
   border-style: solid;
   border-color: green;
   line-height: 1.6; 
-  background-color: #ecedd9;
+  background-color: yellow;
 }
 body {
     background-image: url(WidgetCoLogo.gif);
@@ -59,7 +61,7 @@ body {
 footer {
   border-top: 1px solid black;
   width:100% ;
-  position:fixed;
+  position:relative;
   bottom: 0;
   right: 0;
   font-style: italic;
